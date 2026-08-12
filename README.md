@@ -1,6 +1,6 @@
 # Bayesian Breast-Cancer Prediction — Research Repository
 
-**Petitioner / author:** Osayimwense Godsent Izinyon  
+**Author:** Osayimwense Godsent Izinyon  
 **Purpose:** Reproducible research infrastructure for uncertainty-aware Bayesian modeling of breast-cancer risk / related clinical prediction endpoints, with transparent classical baselines, calibration-first evaluation, and software-ready analysis pipelines.
 
 > **Disclaimer:** This repository is **research infrastructure**, not a medical device or clinical decision-support product. Figures below use **synthetic / toy data** for methodology display only.
