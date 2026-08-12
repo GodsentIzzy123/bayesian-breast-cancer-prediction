@@ -10,7 +10,7 @@
 - [ ] Register / request primary lawful dataset; file confirmation PDF
 - [ ] Tag release `v0.1-baseline`
 - [ ] Add Bayesian GLM notebook on synthetic data
-- [ ] First collaborator feedback notes (redacted for exhibit)
+- [ ] First collaborator feedback notes (redacted as needed)
 
 ## Notes
 

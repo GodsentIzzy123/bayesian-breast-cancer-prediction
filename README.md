@@ -9,8 +9,6 @@
 
 ## Methods display (formulas + figures)
 
-*Print this GitHub README (or open [`docs/methods-one-pager.md`](docs/methods-one-pager.md)) to PDF for Exhibit 17.*
-
 ### Logistic risk model
 
 For person \(i\), event \(Y_i \in \{0,1\}\) and predictors \(x_i\):
@@ -65,7 +63,7 @@ $$
 
 ![Calibration diagram](docs/figures/logistic_calibration.png)
 
-*Predicted risk vs observed event rate. Perfect calibration lies on the diagonal. This is a core evaluation target of the endeavor.*
+*Predicted risk vs observed event rate. Perfect calibration lies on the diagonal.*
 
 ### Figure 3 — Predictive uncertainty band
 
@@ -86,13 +84,13 @@ Full write-up: [`docs/bayesian-models.md`](docs/bayesian-models.md) · regenerat
 | Manuscript outline | [`docs/manuscript-outline.md`](docs/manuscript-outline.md) | Draft v0.1 |
 | Model card stub | [`docs/model-card.md`](docs/model-card.md) | Stub |
 | Bayesian formulas + figures | [`docs/bayesian-models.md`](docs/bayesian-models.md), [`docs/figures/`](docs/figures/) | On main README |
-| Methods one-pager (print) | [`docs/methods-one-pager.md`](docs/methods-one-pager.md) | For PDF save |
+| Methods summary | [`docs/methods-one-pager.md`](docs/methods-one-pager.md) | Formulas + figures |
 | Baseline notebook | [`notebooks/01_baseline_logistic_calibration.ipynb`](notebooks/01_baseline_logistic_calibration.ipynb) | Synthetic demo |
 | Bayesian illustrations notebook | [`notebooks/02_bayesian_illustrations.ipynb`](notebooks/02_bayesian_illustrations.ipynb) | Synthetic demo |
 | Environment | [`environment.yml`](environment.yml), [`requirements.txt`](requirements.txt) | Defined |
 | Tests | [`tests/`](tests/) | Smoke tests |
 
-## Design principles (aligned to the proposed endeavor)
+## Design principles
 
 1. **Prespecify before comparing.** Population, outcome, predictors, splits, and metrics are written down before model shopping.
 2. **Calibration before novelty.** Discrimination alone is not enough; calibration, proper scoring rules, and uncertainty are first-class.

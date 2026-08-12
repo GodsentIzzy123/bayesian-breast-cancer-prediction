@@ -110,7 +110,7 @@ If predicted risks are \(p_i\) and outcomes \(y_i\), good calibration means:
 \mathbb{E}[Y \mid p] \approx p.
 \]
 
-We monitor calibration slope / intercept and reliability diagrams (see figure below). Discrimination (AUC) is secondary for this endeavor’s claims.
+We monitor calibration slope / intercept and reliability diagrams (see figure below). Discrimination (AUC) is reported but secondary to calibration.
 
 ![Synthetic logistic calibration](figures/logistic_calibration.png)
 

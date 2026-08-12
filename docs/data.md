@@ -35,7 +35,7 @@ For each selected source, this file will record:
 | Date | Source | Action | Status | Evidence to file |
 | --- | --- | --- | --- | --- |
 | 2026-08-12 | Synthetic | Generated local demo cohort | Complete | CSV in repo |
-| TBD | SEER / other public source | Registration or data request | Planned | Keep confirmation PDF for Exhibit 17 |
+| TBD | SEER / other public source | Registration or data request | Planned | Keep confirmation / approval records privately |
 
 ## 4. Handling rules
 

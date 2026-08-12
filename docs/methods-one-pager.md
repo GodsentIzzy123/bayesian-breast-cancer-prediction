@@ -1,9 +1,7 @@
 # Methods one-pager — Bayesian breast-cancer prediction research
 
-**Osayimwense Godsent Izinyon** · Research repository display page · Synthetic / educational figures only  
+**Osayimwense Godsent Izinyon** · Research repository methods summary · Synthetic / educational figures only  
 **Repo:** https://github.com/GodsentIzzy123/bayesian-breast-cancer-prediction
-
-*Use browser Print → Save as PDF on this page or the repository README.*
 
 ---
 
