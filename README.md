@@ -5,6 +5,24 @@
 
 This repository is **research infrastructure**, not a medical device or clinical decision-support product. It does not provide medical advice and is not intended for patient care use.
 
+## Bayesian formulas & figures
+
+Core model notes (likelihood, prior/posterior, posterior predictive, hierarchical sketch) live in:
+
+**[`docs/bayesian-models.md`](docs/bayesian-models.md)**
+
+Illustrative figures (synthetic / conjugate demos):
+
+![Beta–Binomial updating](docs/figures/beta_binomial_prior_posterior.png)
+
+![Calibration diagram](docs/figures/logistic_calibration.png)
+
+Regenerate with:
+
+```bash
+python scripts/make_figures.py
+```
+
 ## Status (started August 2026)
 
 | Artifact | Location | Status |
@@ -13,6 +31,7 @@ This repository is **research infrastructure**, not a medical device or clinical
 | Data / access plan | [`docs/data.md`](docs/data.md) | Draft v0.1 |
 | Manuscript outline | [`docs/manuscript-outline.md`](docs/manuscript-outline.md) | Draft v0.1 |
 | Model card stub | [`docs/model-card.md`](docs/model-card.md) | Stub |
+| Bayesian formulas + figures | [`docs/bayesian-models.md`](docs/bayesian-models.md), [`docs/figures/`](docs/figures/) | Draft + PNGs |
 | Baseline notebook | [`notebooks/01_baseline_logistic_calibration.ipynb`](notebooks/01_baseline_logistic_calibration.ipynb) | Synthetic demo |
 | Environment | [`environment.yml`](environment.yml), [`requirements.txt`](requirements.txt) | Defined |
 | Tests | [`tests/`](tests/) | Smoke tests |
